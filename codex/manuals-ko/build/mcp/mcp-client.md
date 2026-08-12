@@ -1,0 +1,48 @@
+---
+title: "Langflow를 MCP 클라이언트로 사용"
+source_url: "https://docs.langflow.org/next/mcp-client"
+source_commit: "3ec070e99af5196fdb187546de2c4f29a35ebe46"
+source_file: "Agents/mcp-client.mdx"
+translation_type: "한국어 요약 번역"
+---
+
+# Langflow를 MCP 클라이언트로 사용
+
+Langflow에서 **Langflow를 MCP 클라이언트로 사용** 기능을 이해하고 구성·실행·검증하기 위한 한국어 안내서임.
+
+> 이 문서는 공식 Langflow 문서를 바탕으로 작성한 한국어 요약 매뉴얼임. 버전별 옵션과 전체 예제는 아래 공식 원문 확인 필요.
+
+## 문서 정보
+
+- 공식 문서: [https://docs.langflow.org/next/mcp-client](https://docs.langflow.org/next/mcp-client)
+- 원본 소스: [Agents/mcp-client.mdx](https://github.com/langflow-ai/langflow/blob/3ec070e99af5196fdb187546de2c4f29a35ebe46/docs/docs/Agents/mcp-client.mdx)
+- 기준 커밋: `3ec070e99af5196fdb187546de2c4f29a35ebe46`
+
+## 주요 내용
+
+- the MCP tools component 사용 (Use the MCP tools component {#use-the-mcp-tools-component})
+- Connect to a non-Langflow MCP server (Connect to a non-Langflow MCP server {#mcp-stdio-mode})
+- Connect a Langflow MCP server (Connect a Langflow MCP server {#mcp-http-mode})
+- MCP Tools parameters
+- connected MCP servers 관리 (Manage connected MCP servers)
+- Modify MCP server environment variables with the API (Modify MCP server environment variables with the API {#mcp-api-tweaks})
+- global variables in MCP server headers 사용 (Use global variables in MCP server headers {#use-global-variables-in-mcp-server-headers})
+- Propagate `x-api-key` to nested MCP servers (Propagate `x-api-key` to nested MCP servers {#propagate-x-api-key})
+- See also
+
+## 사용 절차
+
+1. 공식 문서의 사전 요구 사항과 지원 버전 확인.
+2. 원문 순서에 따라 설정값과 연결 관계 구성.
+3. 최소 예제로 기능 동작 확인.
+4. 로그와 출력값을 기준으로 오류 여부 검증.
+5. 운영 적용 전 보안·성능·복구 기준 점검.
+
+## 적용 시 주의 사항
+
+- 명령어, API 경로, JSON 키, 환경 변수명 및 컴포넌트 이름은 원문 표기를 유지할 것.
+- 실행 전 설치 버전과 공식 문서의 지원 범위를 확인할 것.
+
+## 원문 세부 내용 확인
+
+설정 필드, 전체 코드 예제, 버전별 제한 사항과 화면 이미지는 [공식 문서](https://docs.langflow.org/next/mcp-client) 및 [GitHub 원본](https://github.com/langflow-ai/langflow/blob/3ec070e99af5196fdb187546de2c4f29a35ebe46/docs/docs/Agents/mcp-client.mdx)에서 확인 가능.
